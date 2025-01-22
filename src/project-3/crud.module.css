@@ -1,0 +1,24 @@
+.nav{
+    height: 65px;
+    background-color: khaki;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+}
+.right{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+    gap: 20px;
+}
